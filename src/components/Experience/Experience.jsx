@@ -1,26 +1,6 @@
+import style from "./Experience.module.css";
+import { FaNode } from "react-icons/fa";
+import { SiNodedotjs } from "react-icons/si";
 export const Experience = () => {
-  return (
-    <div>
-      <span>What Skills I Have</span>
-      <h2>My Experience</h2>
-      <div>
-        <h3>Frontend Development</h3>
-        <div>
-            <span>Icon</span>
-            <span>Icon</span>
-            <span>Icon</span>
-            <span>Icon</span>
-        </div>
-      </div>
-      <div>
-        <h3>Frontend Development</h3>
-        <div>
-        <span>Icon</span>
-        <span>Icon</span>
-        <span>Icon</span>
-        <span>Icon</span>
-        </div>
-      </div>
-    </div>
-  );
+  return <section id={"experience"}>Experience</section>;
 };

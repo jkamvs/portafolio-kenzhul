@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import { Portafolio } from "./page/Portafolio/Portafolio";
+import { Home } from "./page/Home/Home";
 
 function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Portafolio/>}/>
+        <Route path="/" element={<Home/>}/>
       </Routes>
     </div>
   );

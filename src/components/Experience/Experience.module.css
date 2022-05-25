@@ -1,0 +1,17 @@
+.contenedor {
+  width: 100%;
+  padding: 60px 80px;
+  border: 1px solid #000;
+}
+
+.cardContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 47%;
+  border: 1px solid #000;
+  padding: 40px;
+}
