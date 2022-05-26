@@ -6,9 +6,9 @@ export const CTA = () => {
   return (
     <div className={style.cta}>
       <a href={CV} download className="btn">
-        Download CV
+      View CV
       </a>
-      <a href="#contact" className="btn btn-primary">Let's Talk</a>
+      <a href="#contact" className="btn btn-primary">Hablemos!</a>
     </div>
   );
 };

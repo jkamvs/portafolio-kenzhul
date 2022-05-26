@@ -4,8 +4,8 @@ import { BsPatchCheckFill } from "react-icons/bs";
 export const Experience = () => {
   return (
     <section id={"experience"}>
-      <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h5>Que Habilidades Tengo</h5>
+      <h2>Mi experiencia</h2>
       <div className={`container ${style.experience__container}`}>
         <div className={style.experience__frontend}>
           <h3>Frontend Development</h3>
@@ -41,7 +41,7 @@ export const Experience = () => {
             <article className={style.experience__details}>
               <BsPatchCheckFill className={style.experience__details__icon} />
               <div>
-                <h4>Tailwind</h4>
+                <h4>Redux</h4>
                 <small className={`text-light`}>Experienced</small>
               </div>
             </article>
@@ -88,7 +88,21 @@ export const Experience = () => {
             <article className={style.experience__details}>
               <BsPatchCheckFill className={style.experience__details__icon} />
               <div>
-                <h4>Python</h4>
+                <h4>Express JS</h4>
+                <small className={`text-light`}>Experienced</small>
+              </div>
+            </article>
+            <article className={style.experience__details}>
+              <BsPatchCheckFill className={style.experience__details__icon} />
+              <div>
+                <h4>PostgreSQL</h4>
+                <small className={`text-light`}>Experienced</small>
+              </div>
+            </article>
+            <article className={style.experience__details}>
+              <BsPatchCheckFill className={style.experience__details__icon} />
+              <div>
+                <h4>Sequelize</h4>
                 <small className={`text-light`}>Experienced</small>
               </div>
             </article>
